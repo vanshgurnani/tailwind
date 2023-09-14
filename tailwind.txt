@@ -1,0 +1,12 @@
+node modules install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+make like this in tailwind.config.js
